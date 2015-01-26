@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var server = require('../')
+
+var port = parseInt(process.argv[2] || 8000)
+
+if (isNaN(port)) {
+    console.error('Usage: submit <port>')
+    process.exit(1)
+}
+
+server.listen(port, function () {
+    console.info('Listening on port %d', port)
+    console.info('Press Ctrl-C or signal SIGINT to stop...')
+})
