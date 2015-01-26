@@ -2,7 +2,7 @@
   "name": "submit",
   "version": "0.0.0",
   "description": "A proof of concept for a code submission application",
-  "private": true
+  "private": true,
   "main": "./lib/server.js",
   "bin": "./bin/submit",
   "os": "linux",
@@ -18,5 +18,5 @@
     "url": "https://github.com/spoonb/submit/issues"
   },
   "author": "C. Brett Witherspoon <spoonb@cdspooner.com>",
-  "license": "MIT",
+  "license": "MIT"
 }
